@@ -213,8 +213,12 @@ public class SlimeCustomizer extends JavaPlugin implements SlimefunAddon {
                 itemFile = new File(getInstance().getDataFolder().getPath() + "/saveditems", id + ".yml");
             }
 
-            if (!itemFile.createNewFile()) {
-                getInstance().getLogger().log(Level.SEVERE, "无法创建该物品的配置: " + id);
+            try {
+                if (!itemFile.createNewFile()) {
+                    getInstance().getLogger().log(Level.SEVERE, "无法创建该物品的配置: " + id);
+                }
+            } catch (IOException e) {
+                getInstance().getLogger().log(Level.SEVERE, "Error al crear archivo de ítem: " + e.getMessage());
             }
 
             Config itemFileConfig = new Config(this, "saveditems/" + id + ".yml");
