@@ -9,7 +9,7 @@ import com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemSta
 import com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils;
 import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu;
 import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenuPreset;
-import io.github.mooy1.infinitylib.machines.AbstractMachineBlock;
+import dev.drake.infinitylib.machines.AbstractMachineBlock;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
