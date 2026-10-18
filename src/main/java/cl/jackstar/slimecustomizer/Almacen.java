@@ -4,8 +4,8 @@ import javax.annotation.Nullable;
 
 import org.bukkit.Location;
 
-import com.github.drakescraft_labs.slimefun4.legacy.api.BlockStorage;
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
 /**
  * Puente hacia el almacenamiento clasico de Slimefun.
