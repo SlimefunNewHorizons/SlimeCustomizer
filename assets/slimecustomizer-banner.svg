@@ -38,6 +38,6 @@
     <rect x="347" y="205" width="566" height="4" rx="2" fill="url(#accent)">
       <animate attributeName="width" values="280;566;280" dur="4.5s" repeatCount="indefinite"/>
     </rect>
-    <text x="349" y="248" fill="#d9b85f" font-size="22">DrakesCraft-Labs · Paper/Purpur 1.21.11</text>
+    <text x="349" y="248" fill="#d9b85f" font-size="22">SlimefunNewHorizons · Paper/Purpur 1.21.11</text>
   </g>
 </svg>

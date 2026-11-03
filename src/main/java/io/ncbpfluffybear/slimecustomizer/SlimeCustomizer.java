@@ -508,7 +508,7 @@ public class SlimeCustomizer extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/DrakesCraft-Labs/SlimeCustomizer/issues";
+        return "https://github.com/SlimefunNewHorizons/SlimeCustomizer/issues";
     }
 
     @Override
